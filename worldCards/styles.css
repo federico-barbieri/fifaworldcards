@@ -1,0 +1,400 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 20px;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+a:visited{
+  color: inherit;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* container */
+
+.container{
+  margin: 0rem auto 1rem auto;
+  max-width: 95%;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 0.8fr 1.2fr;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+  "nav nav nav nav"
+  "aside main main main"
+  "aside main main main"
+  "aside content1 content2 content3";
+  height: 95vh;
+
+  text-align: center;
+}
+
+
+
+/* nav */
+
+nav{
+  background: #EEEEEE;
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+
+.ul-nav{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  width: 80%;
+}
+
+/* aside */
+
+aside{
+
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('img/worldCupTrophy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px black);
+  margin-left: 1rem;
+}
+
+aside:hover{
+    filter: drop-shadow(4px 4px 5px black);
+}
+
+
+
+.ownHistory{
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 0.5rem 1.3rem;
+  border-radius: 1.5rem;
+}
+
+.ownHistory:hover{
+    background-color: rgba(0, 0, 0, 100%);
+    cursor: pointer;
+}
+
+/* main */
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-area: main;
+}
+
+.worldCards{
+  margin: 1rem auto;
+}
+
+.theMarketplace{
+  margin-bottom: 1rem;
+}
+
+.connectToWalletBtn{
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem auto 0 auto;
+  font-size: 1rem;
+}
+
+.connectToWalletBtn:hover{
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin: 1rem auto 0 auto;
+  background-color: black;
+  color: white;
+}
+
+/* content 1 */
+
+.content1{
+  background: url('img/filterByPlayerOrTournament.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: content1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  filter: drop-shadow(2px 7px 5px black);
+}
+
+.content1:hover{
+  filter: drop-shadow(4px 10px 5px black);
+}
+
+.filterByPlayer{
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 0.2rem 0.6rem;
+  color: white;
+}
+
+.filterByPlayer:hover{
+    background-color: rgba(0, 0, 0, 100%);
+    cursor: pointer;
+}
+
+/* content 2 */
+
+.content2{
+  background: url('img/earnRewards.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: content2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  filter: drop-shadow(2px 7px 5px black);
+}
+
+.content2:hover{
+  filter: drop-shadow(4px 10px 5px black);
+}
+
+.earnRewards{
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 0.2rem 0.6rem;
+  color: white;
+}
+
+.earnRewards:hover{
+    background-color: rgba(0, 0, 0, 100%);
+    cursor: pointer;
+}
+
+/* content 3 */
+
+.content3{
+  background: url('img/displayYourCollection.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: content3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  filter: drop-shadow(2px 7px 5px black);
+}
+
+.content3:hover{
+  filter: drop-shadow(4px 10px 5px black);
+}
+
+.displayYourCollection{
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 0.2rem 0.6rem;
+  color: white;
+}
+
+.displayYourCollection:hover{
+    background-color: rgba(0, 0, 0, 100%);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px){
+  .container{
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "nav"
+  "main"
+  "main"
+  "content1"
+  "content2"
+  "content3";
+  }
+  nav{
+    margin: 1rem auto;
+    width: 90%;
+  }
+  .worldCardsLogo{
+    display: none;
+  }
+  .ul-nav{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    width: 100%;
+  }
+  aside{
+    display: none;
+    visibility: none;
+  }
+  .worldCards{
+    font-size: 2rem;
+  }
+  .theMarketplace{
+    font-size: 1.5rem;
+    }
+
+  .connectToWalletBtn{
+    font-size: 1.5rem;
+      margin: 3rem auto 0 auto;
+  }
+}
+
+/* container 2 */
+
+.container2{
+  margin: 0.5rem auto 1rem auto;
+  width: 100%;
+  max-width: 95%;
+  height: 200vh;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* about */
+
+#about{
+  background: #FEF5ED;
+  margin: 3rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 95%;
+  width: 95%;
+}
+
+.howDoesWCWork{
+  font-size: 3rem;
+  margin: 1rem auto 0rem auto;
+  padding-top: 5rem;
+}
+
+/* how it works grid */
+
+.howItWorksGrid{
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+  "broadcast"
+  "mint"
+  "access"
+  "text";
+  width: 80%;
+  margin: 3rem auto 2rem auto;
+  height: 180vh;
+  max-width: 95%;
+  font-size: 1rem;
+}
+
+/* broadcast div */
+
+.broadcast{
+  grid-area: broadcast;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 5rem auto 5rem auto;
+}
+
+.broadcastP{
+  margin: 1.5rem auto 0 auto;
+}
+
+.broadcastSVG{
+  display: inline-block;
+  height: auto;
+  width: 20rem;
+  margin: 0 auto 0 auto;
+}
+
+/* mint div */
+
+.mint{
+  grid-area: mint;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 5rem auto 5rem auto;
+}
+
+.mintP{
+  margin: 1.5rem auto 0 auto;
+}
+
+.mintSVG{
+  display: inline-block;
+  height: auto;
+  width: 20rem;
+  margin: 0 auto 0 auto;
+}
+
+/* access div */
+
+.access{
+  grid-area: access;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 5rem auto 5rem auto;
+}
+
+.accessP{
+  margin: 1.5rem auto 0 auto;
+}
+
+.accessSVG{
+  display: inline-block;
+  height: auto;
+  width: 20rem;
+  margin: 0 auto 0 auto;
+}
