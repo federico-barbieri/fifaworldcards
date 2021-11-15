@@ -578,12 +578,6 @@ text-align: center;
   justify-content: center;
 }
 
-@media only screen and (max-width: 1000px){
-  .container4{
-    margin: -17rem auto 1rem auto;
-  }
-}
-
 /* dashboard */
 
 .dashboard{
@@ -607,6 +601,22 @@ text-align: center;
   "features radar radar";
   font-family: 'Montserrat', sans-serif;
   filter: drop-shadow(4px 4px 8px);
+}
+
+@media only screen and (max-width: 1000px){
+  .container4{
+    margin: -17rem auto 1rem auto;
+  }
+  .dashboard{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "personal"
+    "collection"
+    "radar"
+    "features";
+  }
 }
 
 /* profile */
