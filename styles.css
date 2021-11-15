@@ -392,6 +392,9 @@ text-align: center;
   .container2{
     height: 80vh;
   }
+  .hottestH2{
+    font: 3rem;
+  }
   .hottest{
       margin: 0rem auto 2rem auto;
       flex-direction: column;
@@ -401,19 +404,19 @@ text-align: center;
     height: 15vh;
   }
   .diego1986{
-    width: 20rem;
+    width: 25rem;
   }
   .ronaldo{
     height: 15vh;
   }
   .ronaldo2002{
-    width: 20rem;
+    width: 25rem;
   }
   .zidane{
     height: 15vh;
   }
   .zidane2006{
-    width: 20rem;
+    width: 25rem;
   }
 }
 
