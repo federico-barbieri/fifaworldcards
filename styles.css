@@ -402,6 +402,7 @@ text-align: center;
   }
   .maradona1986{
     width: 20rem;
+    transform: scale(1.2);
   }
   .ronaldo{
     height: 15vh;
