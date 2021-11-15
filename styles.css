@@ -791,7 +791,7 @@ text-align: center;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.3fr;
     grid-gap: 0.5rem;
     grid-template-areas:
     "personal"
