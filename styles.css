@@ -564,7 +564,7 @@ text-align: center;
 /* container 4 */
 
 .container4{
-  margin: -12rem auto 1rem auto;
+  margin: 2 auto 1rem auto;
   max-width: 90%;
   background: url("img/dashboard/background/dash2.jpg");
   background-position: center;
@@ -575,6 +575,12 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1000px){
+  .container4{
+    margin: -3rem auto 1rem auto;
+  }
 }
 
 /* dashboard */
