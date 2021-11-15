@@ -545,7 +545,7 @@ text-align: center;
 
 @media only screen and (max-width: 1000px){
   .howItWorksGrid{
-    height: 150vh;
+    height: 140vh;
   }
   .broadcastP{
     margin-top: 0.2rem;
