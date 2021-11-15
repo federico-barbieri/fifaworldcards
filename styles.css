@@ -608,7 +608,7 @@ text-align: center;
     margin: -17rem auto 1rem auto;
   }
   .dashboard{
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
     grid-gap: 0.5rem;
@@ -618,6 +618,15 @@ text-align: center;
     "radar"
     "features";
     color: black;
+  }
+  .personalSpan{
+    text-decoration: underline;
+  }
+  .collectionSpan{
+    text-decoration: underline;
+  }
+  .radarSpan{
+    text-decoration: underline;
   }
 }
 
