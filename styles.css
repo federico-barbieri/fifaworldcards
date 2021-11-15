@@ -591,7 +591,8 @@ text-align: center;
   overflow: hidden;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
   grid-template-rows: 1fr 1fr;
@@ -787,6 +788,8 @@ text-align: center;
   }
   .dashboard{
     background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
     grid-gap: 0.5rem;
