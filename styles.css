@@ -248,6 +248,7 @@ aside:hover{
   "content1"
   "content2"
   "content3";
+  height: 110vh;
   }
   nav{
     margin: 1rem auto;
@@ -579,7 +580,7 @@ text-align: center;
 
 @media only screen and (max-width: 1000px){
   .container4{
-    margin: -12rem auto 1rem auto; 
+    margin: -12rem auto 1rem auto;
   }
 }
 
