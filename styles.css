@@ -27,8 +27,6 @@ body{
 .container{
   margin: 0rem auto 1rem auto;
   max-width: 95%;
-
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.6fr 1fr 0.8fr 1.2fr;
@@ -39,7 +37,6 @@ body{
   "aside main main main"
   "aside content1 content2 content3";
   height: 95vh;
-
   text-align: center;
 }
 
@@ -284,6 +281,114 @@ aside:hover{
 /* container 2 */
 
 .container2{
+margin: 0.5rem auto 1rem auto;
+width: 100%;
+max-width: 95%;
+height: 50vh;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+.hottestH2{
+  font-size: 2.5rem;
+  margin: 9rem auto 1rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.hottest{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  width: 80vw;
+  max-width: 90%;
+  margin: 2rem auto 2rem auto;
+}
+
+/* diego */
+
+.diego{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.diego1986{
+  display: inline-block;
+  height: auto;
+  width: 15rem;
+  border-radius: 1rem;
+  filter: drop-shadow(3px 3px 4px);
+  border: 1px solid white;
+  margin-bottom: 1.5rem;
+}
+
+.diego1986:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* ronaldo */
+
+.ronaldo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    height: 30vh;
+}
+
+.ronaldo2002{
+  display: inline-block;
+  height: auto;
+  width: 15rem;
+  border-radius: 1rem;
+  filter: drop-shadow(3px 3px 4px);
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  transform: scale(1.05) translateY(-0.1rem);
+}
+
+.ronaldo2002:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* zidane */
+
+.zidane{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.zidane2006{
+  display: inline-block;
+  height: auto;
+  width: 15rem;
+  border-radius: 1rem;
+  filter: drop-shadow(3px 3px 4px);
+  border: 1px solid white;
+  margin-bottom: 1.5rem;
+  transform: scale(1.05);
+}
+
+.zidane2006:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+/* container 3 */
+
+.container3{
   margin: 0.5rem auto 1rem auto;
   width: 100%;
   max-width: 95%;
@@ -325,7 +430,7 @@ aside:hover{
   "text";
   width: 80%;
   margin: 3rem auto 2rem auto;
-  height: 180vh;
+  height: 175vh;
   max-width: 95%;
   font-size: 1rem;
 }
@@ -397,4 +502,223 @@ aside:hover{
   height: auto;
   width: 20rem;
   margin: 0 auto 0 auto;
+}
+
+/* container 4 */
+
+.container4{
+  margin: 7rem auto 1rem auto;
+  max-width: 90%;
+  background: url("img/dashboard/background/dash2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* dashboard */
+
+.dashboard{
+  color: white;
+  width: 80vw;
+  height: 80vh;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  margin: 1rem auto 1rem auto;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+  "personal collection collection"
+  "features radar radar";
+  font-family: 'Montserrat', sans-serif;
+  filter: drop-shadow(4px 4px 8px);
+}
+
+/* profile */
+
+.personal-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-area: personal;
+  margin-top: 2rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.personalPic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 6px white);
+  margin-bottom: 1.5rem;
+}
+
+
+/* features */
+
+.features{
+  grid-area: features;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 13rem;
+  margin-top: 2rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature{
+  text-decoration: underline;
+  padding: 0.2rem;
+}
+
+.feature:hover{
+  cursor: pointer;
+  background-color: black;
+  text-decoration: none;
+}
+
+/* collection */
+
+.my-collection{
+  grid-area: collection;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.collection-examples{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.collectionMessi{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.collectionMessi:hover{
+  filter: drop-shadow(4px 4px 8px);
+}
+
+.collectionRonaldinho{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.collectionRonaldinho:hover{
+  filter: drop-shadow(4px 4px 8px);
+}
+
+.collectionMuller{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.collectionMuller:hover{
+  filter: drop-shadow(4px 4px 8px);
+}
+
+.collectionLine{
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  border-bottom: 1px solid white;
+
+}
+
+/* radar */
+
+.radar{
+  grid-area: radar;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.radar-examples{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+}
+
+.radarValderrama{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.radarValderrama:hover{
+    filter: drop-shadow(4px 4px 8px);
+}
+
+.radarNeymar{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.radarNeymar:hover{
+    filter: drop-shadow(4px 4px 8px);
+}
+
+.radarOwen{
+  width: 200px;
+  height: 150px;
+  filter: drop-shadow(2px 2px 6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.radarOwen:hover{
+    filter: drop-shadow(4px 4px 8px);
 }
