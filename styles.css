@@ -253,9 +253,6 @@ aside:hover{
     margin: 1rem auto;
     width: 90%;
   }
-  .worldCardsLogo{
-    display: none;
-  }
   .ul-nav{
     font-size: 1.5rem;
     margin: 1rem auto;
@@ -271,10 +268,18 @@ aside:hover{
   .theMarketplace{
     font-size: 1.5rem;
     }
-
   .connectToWalletBtn{
     font-size: 1.5rem;
       margin: 3rem auto 0 auto;
+  }
+  .filterByPlayer{
+    font-size: 2rem;
+  }
+  .earnRewards{
+    font-size: 2rem;
+  }
+  .displayYourCollection{
+    font-size: 2rem;
   }
 }
 
@@ -558,8 +563,8 @@ text-align: center;
 }
 
 .personalPic{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   filter: drop-shadow(2px 2px 6px white);
   margin-bottom: 1.5rem;
