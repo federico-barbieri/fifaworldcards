@@ -800,6 +800,9 @@ text-align: center;
     "features";
     color: black;
   }
+  .personal-info{
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+  }
   .personalSpan{
     text-decoration: underline;
   }
@@ -811,5 +814,10 @@ text-align: center;
   }
   .features{
     flex-direction: row;
+  }
+  .collectionLine{
+    color: black;
+    border-bottom: 1px solid black;
+
   }
 }
