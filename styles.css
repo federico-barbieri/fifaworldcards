@@ -390,12 +390,12 @@ text-align: center;
 
 @media only screen and (max-width: 1000px){
   .container2{
-    height: 50vh;
+    height: 70vh;
   }
   .hottest{
       margin: 0rem auto 2rem auto;
       flex-direction: column;
-      height: 45vh;
+      height: 60vh;
   }
   .diego{
     height: 15vh;
