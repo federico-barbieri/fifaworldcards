@@ -435,29 +435,35 @@ text-align: center;
     font: 3rem;
   }
   .hottest{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+      "diego"
+      "ronaldo"
+      "zidane";
       margin: 0rem auto 2rem auto;
-      flex-direction: column;
-      justify-content: center;
-      height: 30vh;
+      height: 45vh;
   }
   .diego{
     height: 10vh;
-    margin-bottom: 3rem;
+    grid-area: diego;
   }
   .diego1986{
     width: 25rem;
 
   }
   .ronaldo{
-    height: 15vh;
-    margin-bottom: 3rem;
+    height: 10vh;
+    grid-area: ronaldo;
   }
   .ronaldo2002{
     width: 25rem;
     margin-bottom: 1.5rem;
   }
   .zidane{
-    height: 15vh;
+    height: 10vh;
+    grid-area: zidane;
   }
   .zidane2006{
     width: 25rem;
