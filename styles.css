@@ -803,12 +803,15 @@ text-align: center;
   }
   .personal-info{
     border-right: 2px solid rgba(0, 0, 0, 0.2);
+    flex-direction: row;
   }
   .collectionSpan{
     text-decoration: underline;
+    font-size: 2rem;
   }
   .radarSpan{
     text-decoration: underline;
+    font-size: 2rem;
   }
   .collectionLine{
     color: black;
