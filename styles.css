@@ -804,9 +804,6 @@ text-align: center;
   .personal-info{
     border-right: 2px solid rgba(0, 0, 0, 0.2);
   }
-  .personalSpan{
-    text-decoration: underline;
-  }
   .collectionSpan{
     text-decoration: underline;
   }
