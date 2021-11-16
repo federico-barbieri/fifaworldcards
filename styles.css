@@ -977,5 +977,35 @@ text-align: center;
     width: 30rem;
   }
 
+  /* cont 3 */
+
+  .container3{
+    height: 90vh;
+    margin-bottom: 5rem;
+  }
+  #about{
+    height: 85vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 80vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+
 
 }
