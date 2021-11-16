@@ -782,7 +782,7 @@ text-align: center;
     filter: drop-shadow(4px 4px 8px);
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
   .container4{
     margin: -4rem auto 1rem auto;
   }
