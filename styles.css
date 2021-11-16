@@ -248,7 +248,7 @@ aside:hover{
   "content1"
   "content2"
   "content3";
-  height: 110vh;
+  height: 120vh;
   }
   nav{
     margin: 1rem auto;
@@ -264,14 +264,15 @@ aside:hover{
     visibility: none;
   }
   .worldCards{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
   .theMarketplace{
-    font-size: 2rem;
+    font-size: 1.3rem;
     }
   .connectToWalletBtn{
     font-size: 1.5rem;
-      margin: 3rem auto 0 auto;
+      margin: 1rem auto 0 auto;
   }
   .filterByPlayer{
     font-size: 2rem;
@@ -391,7 +392,7 @@ text-align: center;
 
 @media only screen and (max-width: 1000px){
   .container2{
-    height: 80vh;
+    height: 160vh;
   }
   .hottestH2{
     font: 3rem;
@@ -399,7 +400,7 @@ text-align: center;
   .hottest{
       margin: 0rem auto 2rem auto;
       flex-direction: column;
-      height: 70vh;
+      height: 140vh;
   }
   .diego{
     height: 15vh;
@@ -545,8 +546,19 @@ text-align: center;
 }
 
 @media only screen and (max-width: 1000px){
+  .container3{
+    height: 310vh;
+  }
+  #about{
+    height: 305vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 5rem;
+  }
   .howItWorksGrid{
-    height: 130vh;
+    height: 275vh;
   }
   .broadcastP{
     margin-top: 1.2rem;
@@ -564,8 +576,23 @@ text-align: center;
 
 /* container 4 */
 
+.signUp{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 80vw;
+  text-align: center;
+  margin: 8rem auto 2rem auto;
+}
+
+@media only screen and (max-width: 1000px){
+  .signUp{
+      width: 90vw;
+      margin: 8rem auto 10rem auto;
+  }
+}
+
 .container4{
-  margin: 2 auto 1rem auto;
+  margin: 5rem auto 1rem auto;
   max-width: 90%;
   background: url("img/dashboard/background/dash2.jpg");
   background-position: center;
@@ -639,14 +666,13 @@ text-align: center;
 }
 
 .feature{
-  text-decoration: underline;
   padding: 0.2rem;
 }
 
 .feature:hover{
   cursor: pointer;
   background-color: black;
-  text-decoration: none;
+
 }
 
 /* collection */
@@ -782,9 +808,9 @@ text-align: center;
     filter: drop-shadow(4px 4px 8px);
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1225px){
   .container4{
-    margin: -4rem auto 1rem auto;
+    height: 150vh;
   }
   .dashboard{
     background: rgba(255, 255, 255, 0.2);
@@ -799,24 +825,33 @@ text-align: center;
     "radar";
     color: white;
     border: 1px solid white;
-    height: 60vh;
+    height: 120vh;
   }
   .personal-info{
-    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .personalSpan{
+    padding-left: 2rem;
   }
   .collectionSpan{
-
     font-size: 1.5rem;
   }
-  .radarSpan{
 
+  .radar{
+    margin-top: 0.5rem;
+    margin-bottom: 9rem;
+  }
+  .radarSpan{
     font-size: 1.5rem;
   }
   .collectionLine{
     color: black;
-    border-bottom: 1px solid black;
+    margin-top: 3rem;
   }
   .features{
     display: none;
