@@ -390,7 +390,7 @@ text-align: center;
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1225px){
   .container2{
     height: 160vh;
   }
@@ -425,6 +425,46 @@ text-align: center;
     width: 25rem;
   }
 }
+
+/*
+@media only screen and (max-width: 970px){
+  .container2{
+    height: 120vh;
+  }
+  .hottestH2{
+    font: 3rem;
+  }
+  .hottest{
+      margin: 0rem auto 2rem auto;
+      flex-direction: column;
+      height: 110vh;
+  }
+  .diego{
+    height: 15vh;
+    margin-bottom: 3rem;
+  }
+  .diego1986{
+    width: 25rem;
+
+  }
+  .ronaldo{
+    height: 15vh;
+    margin-bottom: 3rem;
+  }
+  .ronaldo2002{
+    width: 25rem;
+    margin-bottom: 1.5rem;
+  }
+  .zidane{
+    height: 15vh;
+  }
+  .zidane2006{
+    width: 25rem;
+  }
+}
+*/
+
+
 
 
 /* container 3 */
