@@ -784,7 +784,7 @@ text-align: center;
 
 @media only screen and (max-width: 1000px){
   .container4{
-    margin: -17rem auto 1rem auto;
+    margin: -4rem auto 1rem auto;
   }
   .dashboard{
     background: rgba(255, 255, 255, 0.2);
@@ -813,7 +813,7 @@ text-align: center;
     text-decoration: underline;
   }
   .features{
-    flex-direction: row;
+    
   }
   .collectionLine{
     color: black;
