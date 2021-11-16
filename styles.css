@@ -980,11 +980,11 @@ text-align: center;
   /* cont 3 */
 
   .container3{
-    height: 90vh;
+    height: 30vh;
     margin-bottom: 5rem;
   }
   #about{
-    height: 85vh;
+    height: 30vh;
   }
   .howDoesWCWork{
     font-size: 2.7rem;
@@ -992,7 +992,7 @@ text-align: center;
     padding-top: 10rem;
   }
   .howItWorksGrid{
-    height: 80vh;
+    height: 30vh;
   }
   .broadcastP{
     margin-top: 1.2rem;
