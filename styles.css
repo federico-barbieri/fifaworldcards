@@ -877,14 +877,47 @@ text-align: center;
 
 }
 
-@media (min-width: 250px) and (max-width: 800px){
+@media (max-width: 1200px){
   .container2{
-    height: 40vh;
+    height: 120vh;
     max-width: 80%;
   }
   .hottest{
     flex-direction: column;
-    height: 30vh;
+    height: 110vh;
+    margin: 1rem auto 1rem auto;
+  }
+  .diego{
+    height: 20vh;
+  }
+  .ronaldo{
+    height: 20vh;
+  }
+  .zidane{
+    height: 20vh;
+  }
+  .playerSpan{
+    display: none;
+  }
+  .diego1986{
+    width: 30rem;
+  }
+  .ronaldo2002{
+    width: 30rem;
+  }
+  .zidane2006{
+    width: 30rem;
+  }
+}
+
+@media (max-width: 500px){
+  .container2{
+    height: 60vh;
+    max-width: 80%;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 50vh;
     margin: 1rem auto 1rem auto;
   }
   .diego{
