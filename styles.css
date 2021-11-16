@@ -812,8 +812,8 @@ text-align: center;
   .radarSpan{
     text-decoration: underline;
   }
-  .features{
-    
+  .my-collection{
+  border: 1px solid white;  
   }
   .collectionLine{
     color: black;
