@@ -236,55 +236,6 @@ aside:hover{
 }
 
 
-@media only screen and (max-width: 1000px){
-  .container{
-    grid-gap: 10px;
-  text-align: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "nav"
-  "main"
-  "main"
-  "content1"
-  "content2"
-  "content3";
-  height: 120vh;
-  }
-  nav{
-    margin: 1rem auto;
-    width: 90%;
-  }
-  .ul-nav{
-    font-size: 1.5rem;
-    margin: 1rem auto;
-    width: 100%;
-  }
-  aside{
-    display: none;
-    visibility: none;
-  }
-  .worldCards{
-    font-size: 2.5rem;
-    margin-top: 2rem;
-  }
-  .theMarketplace{
-    font-size: 1.3rem;
-    }
-  .connectToWalletBtn{
-    font-size: 1.5rem;
-      margin: 1rem auto 0 auto;
-  }
-  .filterByPlayer{
-    font-size: 2rem;
-  }
-  .earnRewards{
-    font-size: 2rem;
-  }
-  .displayYourCollection{
-    font-size: 2rem;
-  }
-}
 
 /* container 2 */
 
@@ -389,16 +340,6 @@ text-align: center;
 .zidane2006:hover{
   transform: scale(1.1);
   cursor: pointer;
-}
-
-@media only screen and (max-width: 1225px){
-  .container2{
-    height: 120vh;
-  }
-  .hottest{
-    flex-direction: column;
-    height: 110vh;
-  }
 }
 
 
@@ -520,93 +461,6 @@ text-align: center;
   margin: 0 auto 0 auto;
 }
 
-@media only screen and (min-width: 1001px) and (max-width: 1265px){
-  .container3{
-    height: 280vh;
-  }
-  #about{
-    height: 250vh;
-  }
-  .howDoesWCWork{
-    font-size: 2.7rem;
-    margin: 3rem auto 0rem auto;
-    padding-top: 10rem;
-  }
-  .howItWorksGrid{
-    height: 250vh;
-  }
-  .broadcastP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .mintP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .accessP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 1000px){
-  .container3{
-    height: 310vh;
-  }
-  #about{
-    height: 280vh;
-  }
-  .howDoesWCWork{
-    font-size: 2.7rem;
-    margin: 3rem auto 0rem auto;
-    padding-top: 10rem;
-  }
-  .howItWorksGrid{
-    height: 275vh;
-  }
-  .broadcastP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .mintP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .accessP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 676px){
-  .container3{
-    height: 310vh;
-  }
-  #about{
-    height: 305vh;
-  }
-  .howDoesWCWork{
-    font-size: 2.7rem;
-    margin: 3rem auto 0rem auto;
-    padding-top: 10rem;
-  }
-  .howItWorksGrid{
-    height: 275vh;
-  }
-  .broadcastP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .mintP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .accessP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-}
-
 
 
 /* container 4 */
@@ -619,7 +473,7 @@ text-align: center;
   margin: 8rem auto 2rem auto;
 }
 
-@media only screen and (max-width: 1000px){
+@media (max-width: 1000px){
   .signUp{
       width: 90vw;
       margin: 8rem auto 10rem auto;
@@ -843,7 +697,41 @@ text-align: center;
     filter: drop-shadow(4px 4px 8px);
 }
 
-@media only screen and (max-width: 1225px){
+
+
+
+/* queries */
+
+@media (max-width: 1460px){
+  .container3{
+    height: 275vh;
+  }
+  #about{
+    height: 270vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 250vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1366px){
   .container4{
     height: 150vh;
   }
@@ -893,7 +781,365 @@ text-align: center;
   }
 }
 
-@media only screen and (max-width: 953px){
+@media (max-width: 1220px){
+  .container2{
+    height: 120vh;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 110vh;
+  }
+}
+
+@media (max-width: 900px){
+
+/* first container */
+
+  .container{
+  grid-gap: 10px;
+  height: 120vh;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "nav"
+  "main"
+  "main"
+  "content1"
+  "content2"
+  "content3";
+  }
+  nav{
+    margin: 1rem auto;
+    width: 90%;
+  }
+  .ul-nav{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    width: 100%;
+  }
+  aside{
+    display: none;
+    visibility: none;
+  }
+  .worldCards{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .theMarketplace{
+    font-size: 1.3rem;
+    }
+  .connectToWalletBtn{
+    font-size: 1.5rem;
+      margin: 1rem auto 0 auto;
+  }
+  .filterByPlayer{
+    font-size: 2rem;
+  }
+  .earnRewards{
+    font-size: 2rem;
+  }
+  .displayYourCollection{
+    font-size: 2rem;
+  }
+
+  /* dashboard */
+
+  .container4{
+    height: 150vh;
+  }
+  .dashboard{
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "personal"
+    "collection"
+    "radar"
+    "features";
+    color: white;
+    border: 1px solid white;
+    height: 120vh;
+  }
+  .personal-info{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .personalSpan{
+    padding-left: 2rem;
+  }
+  .collectionSpan{
+    font-size: 1.5rem;
+  }
+
+  .radar{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .radarSpan{
+    font-size: 1.5rem;
+  }
+  .collection-examples{
+    display: none;
+  }
+  .collectionLine{
+    display: none;
+  }
+  .my-collection{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: 0rem;
+  }
+  .features{
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .radar-examples{
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 800px){
+  .container2{
+    height: 150vh;
+    max-width: 80%;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 140vh;
+    margin: 1rem auto 1rem auto;
+  }
+  .playerSpan{
+    display: none;
+  }
+  .diego1986{
+    width: 30rem;
+  }
+  .ronaldo2002{
+    width: 30rem;
+  }
+  .zidane2006{
+    width: 30rem;
+  }
+
+
+}
+
+/*
+
+/* cont 1 query
+
+@media (max-width: 1000px){
+  .container{
+    grid-gap: 10px;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "nav"
+  "main"
+  "main"
+  "content1"
+  "content2"
+  "content3";
+  height: 120vh;
+  }
+  nav{
+    margin: 1rem auto;
+    width: 90%;
+  }
+  .ul-nav{
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    width: 100%;
+  }
+  aside{
+    display: none;
+    visibility: none;
+  }
+  .worldCards{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .theMarketplace{
+    font-size: 1.3rem;
+    }
+  .connectToWalletBtn{
+    font-size: 1.5rem;
+      margin: 1rem auto 0 auto;
+  }
+  .filterByPlayer{
+    font-size: 2rem;
+  }
+  .earnRewards{
+    font-size: 2rem;
+  }
+  .displayYourCollection{
+    font-size: 2rem;
+  }
+}
+
+/* cont 2 query
+
+@media (max-width: 1225px){
+  .container2{
+    height: 120vh;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 110vh;
+  }
+}
+
+@media (max-width: 980px){
+  .container2{
+    height: 150vh;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 140vh;
+  }
+  .playerSpan{
+    display: none;
+  }
+  .diego1986{
+    width: 30rem;
+  }
+  .ronaldo2002{
+    width: 30rem;
+  }
+  .zidane2006{
+    width: 30rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 720px){
+  .container2{
+    height: 180vh;
+  }
+  .hottest{
+    flex-direction: column;
+    height: 170vh;
+  }
+  .diego{
+    height: 50vh;
+    display: none;
+  }
+  .diego1986{
+    width: 50rem;
+  }
+  .ronaldo2002{
+    width: 50rem;
+  }
+  .zidane2006{
+    width: 50rem;
+  }
+}
+
+
+/* cont 3 query
+
+
+@media only screen and (min-width: 1001px) and (max-width: 1265px){
+  .container3{
+    height: 280vh;
+  }
+  #about{
+    height: 250vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 250vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .container3{
+    height: 310vh;
+  }
+  #about{
+    height: 280vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 275vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 676px){
+  .container3{
+    height: 310vh;
+  }
+  #about{
+    height: 305vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 275vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
+/* cont 4 query
+
+
+@media (max-width: 953px){
   .container4{
     height: 150vh;
   }
