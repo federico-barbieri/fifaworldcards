@@ -351,13 +351,12 @@ text-align: center;
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
   "broadcast"
   "mint"
-  "access"
-  "text";
+  "access";
   width: 80%;
   margin: 3rem auto 2rem auto;
   height: 175vh;
@@ -794,7 +793,7 @@ text-align: center;
 
   .container{
   grid-gap: 10px;
-  height: 120vh;
+  height: 100vh;
   text-align: center;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
@@ -908,9 +907,6 @@ text-align: center;
     height: 30vh;
     margin-bottom: 5rem;
   }
-  #about{
-    height: 30vh;
-  }
   .howDoesWCWork{
     font-size: 2.7rem;
     margin: 3rem auto 0rem auto;
@@ -931,6 +927,46 @@ text-align: center;
     margin-top: 1.2rem;
     font-size: 2rem;
   }
+  .broadcastSVG{
+    height: 10vh;
+  }
+  .mintSVG{
+    height: 10vh;
+  }
+  .accessSVG{
+    height: 10vh;
+  }
+  .broadcast{
+    margin: 0 auto 0 auto;
+  }
+  .access{
+    margin: 0 auto 0 auto;
+  }
+  .mint{
+    margin: 0 auto 0 auto;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .broadcastSVG{
+    height: 10vh;
+  }
+  .mintSVG{
+    height: 10vh;
+  }
+  .accessSVG{
+    height: 10vh;
+  }
+}
 }
 
 @media (max-width: 500px){
@@ -974,16 +1010,25 @@ text-align: center;
     height: 30vh;
     margin-bottom: 5rem;
   }
-  #about{
-    height: 30vh;
-  }
   .howDoesWCWork{
     font-size: 2.7rem;
     margin: 3rem auto 0rem auto;
-    padding-top: 10rem;
+    padding-top: 1rem;
   }
   .howItWorksGrid{
     height: 30vh;
+  }
+  .broadcast{
+    margin: 0 auto 0 auto;
+    justify-content: center;
+  }
+  .access{
+    margin: 0 auto 0 auto;
+    justify-content: center;
+  }
+  .mint{
+    margin: 0 auto 0 auto;
+    justify-content: center;
   }
   .broadcastP{
     margin-top: 1.2rem;
@@ -997,6 +1042,16 @@ text-align: center;
     margin-top: 1.2rem;
     font-size: 2rem;
   }
+  .broadcastSVG{
+    height: 10vh;
+  }
+  .mintSVG{
+    height: 10vh;
+  }
+  .accessSVG{
+    height: 10vh;
+  }
+}
 }
 
 @media (max-width: 400px){
@@ -1006,9 +1061,7 @@ text-align: center;
     height: 30vh;
     margin-bottom: 5rem;
   }
-  #about{
-    height: 30vh;
-  }
+
   .howDoesWCWork{
     font-size: 2.7rem;
     margin: 3rem auto 0rem auto;
