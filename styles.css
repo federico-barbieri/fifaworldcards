@@ -28,14 +28,14 @@ body{
   margin: 0rem auto 1rem auto;
   max-width: 95%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.6fr 1fr 0.8fr 1.2fr;
   grid-gap: 0.5rem;
   grid-template-areas:
-  "nav nav nav nav"
-  "aside main main main"
-  "aside main main main"
-  "aside content1 content2 content3";
+  "nav nav nav"
+  "main main main"
+  "main main main"
+  "content1 content2 content3";
   height: 95vh;
   text-align: center;
 }
@@ -62,33 +62,6 @@ nav{
   justify-content: space-around;
   width: 80%;
 }
-
-/* aside */
-
-aside{
-
-  grid-area: aside;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: url('img/worldCupTrophy.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 1.5rem;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  filter: drop-shadow(2px 2px 5px black);
-  margin-left: 1rem;
-}
-
-aside:hover{
-    filter: drop-shadow(4px 4px 5px black);
-}
-
-
 
 .ownHistory{
   font-size: 2rem;
