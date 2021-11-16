@@ -238,6 +238,7 @@ aside:hover{
 
 @media only screen and (max-width: 1000px){
   .container{
+    grid-gap: 10px;
   text-align: center;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
@@ -426,10 +427,9 @@ text-align: center;
   }
 }
 
-/*
-@media only screen and (max-width: 970px){
+@media only screen and (max-width: 550px){
   .container2{
-    height: 120vh;
+    height: 40vh;
   }
   .hottestH2{
     font: 3rem;
@@ -437,10 +437,11 @@ text-align: center;
   .hottest{
       margin: 0rem auto 2rem auto;
       flex-direction: column;
-      height: 110vh;
+      justify-content: center;
+      height: 30vh;
   }
   .diego{
-    height: 15vh;
+    height: 10vh;
     margin-bottom: 3rem;
   }
   .diego1986{
@@ -462,7 +463,7 @@ text-align: center;
     width: 25rem;
   }
 }
-*/
+
 
 
 
