@@ -800,6 +800,7 @@ text-align: center;
     "features";
     color: black;
     border: 1px solid white;
+    height: 60vh;
   }
   .personal-info{
     border-right: 2px solid rgba(0, 0, 0, 0.2);
