@@ -393,85 +393,13 @@ text-align: center;
 
 @media only screen and (max-width: 1225px){
   .container2{
-    height: 160vh;
-  }
-  .hottestH2{
-    font: 3rem;
+    height: 120vh;
   }
   .hottest{
-      margin: 0rem auto 2rem auto;
-      flex-direction: column;
-      height: 140vh;
-  }
-  .diego{
-    height: 15vh;
-    margin-bottom: 3rem;
-  }
-  .diego1986{
-    width: 25rem;
-
-  }
-  .ronaldo{
-    height: 15vh;
-    margin-bottom: 3rem;
-  }
-  .ronaldo2002{
-    width: 25rem;
-    margin-bottom: 1.5rem;
-  }
-  .zidane{
-    height: 15vh;
-  }
-  .zidane2006{
-    width: 25rem;
+    flex-direction: column;
+    height: 110vh;
   }
 }
-
-@media only screen and (min-width: 400px) and (max-width: 970px){
-  .container2{
-    height: 40vh;
-  }
-  .hottestH2{
-    font: 3rem;
-  }
-  .hottest{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas:
-      "diego"
-      "ronaldo"
-      "zidane";
-      margin: 0rem auto 2rem auto;
-      height: 45vh;
-  }
-  .diego{
-    height: 10vh;
-    grid-area: diego;
-  }
-  .diego1986{
-    width: 25rem;
-
-  }
-  .ronaldo{
-    height: 10vh;
-    grid-area: ronaldo;
-  }
-  .ronaldo2002{
-    width: 25rem;
-    margin-bottom: 1.5rem;
-  }
-  .zidane{
-    height: 10vh;
-    grid-area: zidane;
-  }
-  .zidane2006{
-    width: 25rem;
-  }
-}
-
-
-
 
 
 /* container 3 */
@@ -592,17 +520,46 @@ text-align: center;
   margin: 0 auto 0 auto;
 }
 
+@media only screen and (min-width: 1001px) and (max-width: 1265px){
+  .container3{
+    height: 280vh;
+  }
+  #about{
+    height: 250vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 250vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1000px){
   .container3{
     height: 310vh;
   }
   #about{
-    height: 305vh;
+    height: 280vh;
   }
   .howDoesWCWork{
     font-size: 2.7rem;
     margin: 3rem auto 0rem auto;
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
   .howItWorksGrid{
     height: 275vh;
@@ -620,6 +577,37 @@ text-align: center;
     font-size: 2rem;
   }
 }
+
+@media only screen and (max-width: 676px){
+  .container3{
+    height: 310vh;
+  }
+  #about{
+    height: 305vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 275vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
+
 
 /* container 4 */
 
@@ -901,6 +889,68 @@ text-align: center;
     margin-top: 3rem;
   }
   .features{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 953px){
+  .container4{
+    height: 150vh;
+  }
+  .dashboard{
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "personal"
+    "collection"
+    "radar"
+    "features";
+    color: white;
+    border: 1px solid white;
+    height: 120vh;
+  }
+  .personal-info{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .personalSpan{
+    padding-left: 2rem;
+  }
+  .collectionSpan{
+    font-size: 1.5rem;
+  }
+
+  .radar{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .radarSpan{
+    font-size: 1.5rem;
+  }
+  .collection-examples{
+    display: none;
+  }
+  .collectionLine{
+    display: none;
+  }
+  .my-collection{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: 0rem;
+  }
+  .features{
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .radar-examples{
     display: none;
   }
 }
