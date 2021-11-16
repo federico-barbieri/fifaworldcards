@@ -799,6 +799,7 @@ text-align: center;
     "radar"
     "features";
     color: black;
+    border: 1px solid white;
   }
   .personal-info{
     border-right: 2px solid rgba(0, 0, 0, 0.2);
@@ -811,9 +812,6 @@ text-align: center;
   }
   .radarSpan{
     text-decoration: underline;
-  }
-  .my-collection{
-  border: 1px solid white;  
   }
   .collectionLine{
     color: black;
