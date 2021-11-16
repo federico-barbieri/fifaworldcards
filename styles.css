@@ -813,6 +813,8 @@ text-align: center;
   .collectionLine{
     color: black;
     border-bottom: 1px solid black;
-
+  }
+  .features{
+    display: none;
   }
 }
