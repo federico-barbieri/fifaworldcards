@@ -910,7 +910,42 @@ text-align: center;
   }
 }
 
+@media (max-width: 700px){
+  /* cont 3 */
+
+  .container3{
+    height: 100vh;
+    margin-bottom: 5rem;
+  }
+  #about{
+    height: 90vh;
+  }
+  .howDoesWCWork{
+    font-size: 2.7rem;
+    margin: 3rem auto 0rem auto;
+    padding-top: 10rem;
+  }
+  .howItWorksGrid{
+    height: 250vh;
+  }
+  .broadcastP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .mintP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .accessP{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 500px){
+
+  /* cont 2 */
+
   .container2{
     height: 60vh;
     max-width: 80%;
@@ -941,118 +976,11 @@ text-align: center;
   .zidane2006{
     width: 30rem;
   }
+
+
 }
 
 /*
-
-/* cont 1 query
-
-@media (max-width: 1000px){
-  .container{
-    grid-gap: 10px;
-  text-align: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "nav"
-  "main"
-  "main"
-  "content1"
-  "content2"
-  "content3";
-  height: 120vh;
-  }
-  nav{
-    margin: 1rem auto;
-    width: 90%;
-  }
-  .ul-nav{
-    font-size: 1.5rem;
-    margin: 1rem auto;
-    width: 100%;
-  }
-  aside{
-    display: none;
-    visibility: none;
-  }
-  .worldCards{
-    font-size: 2.5rem;
-    margin-top: 2rem;
-  }
-  .theMarketplace{
-    font-size: 1.3rem;
-    }
-  .connectToWalletBtn{
-    font-size: 1.5rem;
-      margin: 1rem auto 0 auto;
-  }
-  .filterByPlayer{
-    font-size: 2rem;
-  }
-  .earnRewards{
-    font-size: 2rem;
-  }
-  .displayYourCollection{
-    font-size: 2rem;
-  }
-}
-
-/* cont 2 query
-
-@media (max-width: 1225px){
-  .container2{
-    height: 120vh;
-  }
-  .hottest{
-    flex-direction: column;
-    height: 110vh;
-  }
-}
-
-@media (max-width: 980px){
-  .container2{
-    height: 150vh;
-  }
-  .hottest{
-    flex-direction: column;
-    height: 140vh;
-  }
-  .playerSpan{
-    display: none;
-  }
-  .diego1986{
-    width: 30rem;
-  }
-  .ronaldo2002{
-    width: 30rem;
-  }
-  .zidane2006{
-    width: 30rem;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 720px){
-  .container2{
-    height: 180vh;
-  }
-  .hottest{
-    flex-direction: column;
-    height: 170vh;
-  }
-  .diego{
-    height: 50vh;
-    display: none;
-  }
-  .diego1986{
-    width: 50rem;
-  }
-  .ronaldo2002{
-    width: 50rem;
-  }
-  .zidane2006{
-    width: 50rem;
-  }
-}
 
 
 /* cont 3 query
