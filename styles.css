@@ -804,7 +804,7 @@ text-align: center;
   .personal-info{
     border-right: 2px solid rgba(0, 0, 0, 0.2);
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .collectionSpan{
 
