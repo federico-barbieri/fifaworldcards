@@ -29,7 +29,7 @@ body{
   max-width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.6fr 1fr 0.8fr 1.2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
   "nav nav nav"
@@ -757,6 +757,7 @@ text-align: center;
     .container3{
       height: 160vh;
       overflow: hidden;
+      margin-bottom: 1rem;
     }
     #about{
 
@@ -790,7 +791,7 @@ text-align: center;
 
     .container4{
       height: 80vh;
-      margin-top: 5rem;
+      margin-top: 3rem;
       overflow: hidden;
     }
     .dashboard{
@@ -807,7 +808,7 @@ text-align: center;
 @media (max-width: 1000px){
   .signUp{
       width: 90vw;
-      margin: 2rem auto 10rem auto;
+      margin: 1rem auto 2rem auto;
   }
 }
 
