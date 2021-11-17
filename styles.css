@@ -837,6 +837,7 @@ text-align: center;
       height: 5rem;
       margin-top: 1.5rem;
       border-right: none;
+      font-size: 1.7rem;
     }
     .radarSpan{
       margin-top: 1rem;
@@ -947,7 +948,7 @@ text-align: center;
 
 @media (max-width:685px){
   .container3{
-    height: 200vh;
+    height: 170vh;
   }
 }
 
