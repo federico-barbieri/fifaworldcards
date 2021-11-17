@@ -323,8 +323,8 @@ text-align: center;
   background: #FEF5ED;
   margin: 0.5rem auto 1rem auto;
   width: 100%;
-  max-width: 95%;
-  height: 200vh;
+  max-width: 90%;
+  height: 250vh;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -730,15 +730,6 @@ text-align: center;
   }
 }
 
-@media (min-width: 1001px) and (max-width: 1270px){
-  .container3{
-    height: 230vh;
-  }
-  .howItWorksGrid{
-    height: 150vh;
-  }
-  }
-
 
 @media (max-width: 1200px){
   .container2{
@@ -775,7 +766,7 @@ text-align: center;
   /* container 3 */
 
     .container3{
-      height: 160vh;
+      height: 250vh;
       overflow: hidden;
       margin-bottom: 1rem;
     }
@@ -850,7 +841,8 @@ text-align: center;
       margin: 1rem auto 2rem auto;
   }
   .container3{
-    height: 180vh;
+    height: 250vh;
+    margin-bottom: 3rem;
   }
 
 }
@@ -902,6 +894,12 @@ text-align: center;
     font-size: 2rem;
   }
 
+  /* cont 3 */
+
+  .container3{
+    height: 250vh;
+  }
+
   /* dashboard */
 
   .container4{
@@ -946,11 +944,6 @@ text-align: center;
   }
 }
 
-@media (max-width:685px){
-  .container3{
-    height: 100vh;
-  }
-}
 
 @media (max-width: 650px){
   .features{
@@ -995,5 +988,8 @@ text-align: center;
   }
   .zidane2006{
     width: 30rem;
+  }
+  .container3{
+    height: 250vh;
   }
 }
