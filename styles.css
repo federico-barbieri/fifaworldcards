@@ -814,6 +814,9 @@ text-align: center;
       width: 90vw;
       margin: 1rem auto 2rem auto;
   }
+  .container3{
+    height: 140vh;
+  }
 }
 
 @media (max-width: 900px){
