@@ -760,9 +760,6 @@ text-align: center;
       overflow: hidden;
       margin-bottom: 1rem;
     }
-    #about{
-
-    }
     .howItWorksGrid{
       height: 110vh;
     }
@@ -800,7 +797,7 @@ text-align: center;
       overflow: hidden;
     }
     .dashboard{
-      height: 70vh;
+      height: 60vh;
     }
     .collection-examples{
       display: none;
