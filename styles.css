@@ -755,32 +755,35 @@ text-align: center;
   /* container 3 */
 
     .container3{
-      height: 100vh;
+      height: 110vh;
       overflow: hidden;
     }
     #about{
 
     }
     .howItWorksGrid{
-      height: 90vh;
+      height: 100vh;
     }
     .broadcastSVG{
-        display: none;
+
     }
     .accessSVG{
-      display: none;
+
     }
     .mintSVG{
-      display: none;
+
     }
     .broadcast{
       justify-content: center;
+      font-size: 1.5rem;
     }
     .mint{
       justify-content: center;
+      font-size: 1.5rem;
     }
     .access{
       justify-content: center;
+      font-size: 1.5rem;
     }
 
     /* cont 4 */
