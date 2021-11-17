@@ -320,6 +320,7 @@ text-align: center;
 /* container 3 */
 
 .container3{
+  background: #FEF5ED;
   margin: 0.5rem auto 1rem auto;
   width: 100%;
   max-width: 95%;
@@ -331,7 +332,7 @@ text-align: center;
 /* about */
 
 #about{
-  background: #FEF5ED;
+
   margin: 3rem auto 1rem auto;
   display: flex;
   flex-direction: column;
@@ -599,7 +600,11 @@ text-align: center;
   width: 10rem;
   border: none;
   border-bottom: 1px solid white;
+}
 
+.collectionSpan:hover{
+  cursor: pointer;
+  background-color: black;
 }
 
 /* radar */
@@ -664,6 +669,11 @@ text-align: center;
     filter: drop-shadow(4px 4px 8px);
 }
 
+.radarSpan:hover{
+  cursor: pointer;
+  background-color: black;
+}
+
 
 
 
@@ -720,15 +730,24 @@ text-align: center;
   }
 }
 
+@media (min-width: 1001px) and (max-width: 1270px){
+  .container3{
+    height: 230vh;
+  }
+  .howItWorksGrid{
+    height: 150vh;
+  }
+  }
+
 
 @media (max-width: 1200px){
   .container2{
-    height: 120vh;
+    height: 150vh;
     max-width: 80%;
   }
   .hottest{
     flex-direction: column;
-    height: 110vh;
+    height: 140vh;
     margin: 1rem auto 1rem auto;
   }
   .diego{
@@ -797,7 +816,9 @@ text-align: center;
       overflow: hidden;
     }
     .dashboard{
-      height: 60vh;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
     }
     .collection-examples{
       display: none;
@@ -805,16 +826,32 @@ text-align: center;
   .radar-examples{
       display: none;
     }
+    .collectionLine{
+      display: none;
+    }
+    .features{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      height: 5rem;
+      margin-top: 1.5rem;
+      border-right: none;
+    }
+    .radarSpan{
+      margin-top: 1rem;
+    }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1060px){
   .signUp{
       width: 90vw;
       margin: 1rem auto 2rem auto;
   }
   .container3{
-    height: 140vh;
+    height: 180vh;
   }
+
 }
 
 @media (max-width: 900px){
@@ -870,19 +907,6 @@ text-align: center;
     height: 70vh;
   }
   .dashboard{
-    background: rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-gap: 0.5rem;
-    grid-template-areas:
-    "personal"
-    "collection"
-    "radar"
-    "features";
-    color: white;
-    border: 1px solid white;
     height: 60vh;
   }
   .personal-info{
@@ -899,12 +923,6 @@ text-align: center;
   .collectionSpan{
     font-size: 1.5rem;
   }
-
-  .radar{
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  }
   .radarSpan{
     font-size: 1.5rem;
   }
@@ -915,7 +933,7 @@ text-align: center;
     display: none;
   }
   .my-collection{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+
     margin-top: 0rem;
   }
   .features{
@@ -925,10 +943,22 @@ text-align: center;
   .radar-examples{
     display: none;
   }
-
-
 }
 
+@media (max-width:685px){
+  .container3{
+    height: 200vh;
+  }
+}
+
+@media (max-width: 650px){
+  .features{
+    display: none;
+  }
+  .collectionSpan{
+    margin-top: 2rem;
+  }
+}
 
 
 @media (max-width: 500px){
