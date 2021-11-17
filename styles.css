@@ -334,6 +334,7 @@ text-align: center;
   margin: 3rem auto 1rem auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   max-width: 95%;
   width: 95%;
@@ -754,14 +755,14 @@ text-align: center;
   /* container 3 */
 
     .container3{
-      height: 190vh;
+      height: 100vh;
       overflow: hidden;
     }
     #about{
 
     }
     .howItWorksGrid{
-      height: 160vh;
+      height: 90vh;
     }
     .broadcastSVG{
         display: none;
@@ -771,6 +772,15 @@ text-align: center;
     }
     .mintSVG{
       display: none;
+    }
+    .broadcast{
+      justify-content: center;
+    }
+    .mint{
+      justify-content: center;
+    }
+    .access{
+      justify-content: center;
     }
 
     /* cont 4 */
