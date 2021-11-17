@@ -754,23 +754,34 @@ text-align: center;
   /* container 3 */
 
     .container3{
-      height: 500px;
+      height: 190vh;
+      overflow: hidden;
     }
     #about{
-      background: red;
+
+    }
+    .howItWorksGrid{
+      height: 160vh;
     }
     .broadcastSVG{
-      display: none;
+
     }
     .accessSVG{
-      display: none;
+
     }
     .mintSVG{
-      display: none;
+
     }
+
+    /* cont 4 */
+
     .container4{
-      height: 500px;
+      height: 100vh;
       margin-top: 5rem;
+      overflow: hidden;
+    }
+    .dashboard{
+      height: 90vh;
     }
 }
 
