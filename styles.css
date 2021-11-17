@@ -833,6 +833,19 @@ text-align: center;
     .radarSpan{
       margin-top: 1rem;
     }
+
+    /* cont 1 */
+    .container{
+    grid-gap: 10px;
+    height: 90vh;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1.5fr;
+    grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "content1 content2 content3";
+    }
 }
 
 @media (max-width: 1060px){
