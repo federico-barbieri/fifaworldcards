@@ -755,14 +755,14 @@ text-align: center;
   /* container 3 */
 
     .container3{
-      height: 110vh;
+      height: 130vh;
       overflow: hidden;
     }
     #about{
 
     }
     .howItWorksGrid{
-      height: 100vh;
+      height: 120vh;
     }
     .broadcastSVG{
 
@@ -789,12 +789,12 @@ text-align: center;
     /* cont 4 */
 
     .container4{
-      height: 100vh;
+      height: 80vh;
       margin-top: 5rem;
       overflow: hidden;
     }
     .dashboard{
-      height: 90vh;
+      height: 70vh;
     }
     .collection-examples{
       display: none;
