@@ -667,31 +667,6 @@ text-align: center;
 
 /* queries */
 
-@media (max-width: 1460px){
-  .container3{
-    height: 275vh;
-  }
-  .howDoesWCWork{
-    font-size: 2.7rem;
-    margin: 3rem auto 0rem auto;
-    padding-top: 10rem;
-  }
-  .howItWorksGrid{
-    height: 250vh;
-  }
-  .broadcastP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .mintP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .accessP{
-    margin-top: 1.2rem;
-    font-size: 2rem;
-  }
-}
 
 @media (max-width: 1366px){
   .container4{
@@ -936,6 +911,12 @@ text-align: center;
 
 /* container 3 */
 
+  .container3{
+    height: 500px;
+  }
+  #about{
+    background: red;
+  }
   .broadcastSVG{
     display: none;
   }
@@ -945,5 +926,8 @@ text-align: center;
   .mintSVG{
     display: none;
   }
-
+  .container4{
+    height: 500px;
+    margin-top: 5rem;
+  }
 }
