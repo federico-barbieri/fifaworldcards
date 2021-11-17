@@ -861,7 +861,7 @@ text-align: center;
   /* dashboard */
 
   .container4{
-    height: 100vh;
+    height: 70vh;
   }
   .dashboard{
     background: rgba(255, 255, 255, 0.2);
@@ -877,7 +877,7 @@ text-align: center;
     "features";
     color: white;
     border: 1px solid white;
-    height: 90vh;
+    height: 60vh;
   }
   .personal-info{
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
