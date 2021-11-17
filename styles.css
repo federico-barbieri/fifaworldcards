@@ -764,13 +764,13 @@ text-align: center;
       height: 160vh;
     }
     .broadcastSVG{
-
+        display: none;
     }
     .accessSVG{
-
+      display: none;
     }
     .mintSVG{
-
+      display: none;
     }
 
     /* cont 4 */
@@ -782,6 +782,12 @@ text-align: center;
     }
     .dashboard{
       height: 90vh;
+    }
+    .collection-examples{
+      display: none;
+    }
+  .radar-examples{
+      display: none;
     }
 }
 
@@ -801,10 +807,9 @@ text-align: center;
   height: 100vh;
   text-align: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.7fr 0.7fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
   "nav"
-  "main"
   "main"
   "content1"
   "content2"
@@ -843,7 +848,7 @@ text-align: center;
   /* dashboard */
 
   .container4{
-    height: 150vh;
+    height: 100vh;
   }
   .dashboard{
     background: rgba(255, 255, 255, 0.2);
@@ -859,7 +864,7 @@ text-align: center;
     "features";
     color: white;
     border: 1px solid white;
-    height: 120vh;
+    height: 90vh;
   }
   .personal-info{
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
